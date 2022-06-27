@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
+﻿// DECLARATION AND INITIALIZATION
 string title = "The Lord of the Rings";
 string author = "J.R.R. Tolkien";
 string isbn = "9780544003415"; // scelto tipo stringa perché alcuni isbn contengono -
@@ -10,10 +8,11 @@ float height = 20.95f; // cm
 float width = 13.97f; // cm
 float depth = 4.44f; // cm
 float rating = 4.8f; // 0 to 5
-int reviewsNum = 24027;
+uint reviewsNum = 24027;
 bool kindleVersion = true;
 bool flexibleCoverVersion = true;
 
+// PRINT
 Console.WriteLine("\nBOOK INFO:");
 Console.WriteLine($"Title: {title}");
 Console.WriteLine($"Author: {author}");
